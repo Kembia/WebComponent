@@ -1,0 +1,110 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+  
+  
+/* body {
+    background-color:#62c1e3;
+    background-image: none;
+    opacity: 0.3; 
+} */
+  
+h1 {
+    font-family: 'cursive';
+    text-align: center;
+    margin: 12px auto;
+}
+  
+p {
+    font-size: 18px;
+    font-family: 'cursive';
+    text-align: center;
+    margin: 6px auto;
+}
+  
+form {
+    width: 100%;
+    margin: auto;
+    max-width: 750px;
+    display: block;
+    padding: 50px;
+    color: white;
+    background-color: #0d2a34;
+    border-radius: 6px;
+
+}
+  
+label {
+    font-size:20px;
+    margin-left: 6px;
+    /* display: flex;
+    align-items: center; */
+}
+  
+input[type="text"], input[type="email"], input[type="number"], select {
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    padding: 8px;
+    margin: 4px auto 14px auto;
+    border: 1px solid grey;
+    border-radius: 6px;
+    font-size: 16px;
+} 
+  
+
+input[type="radio"] {
+    display: inline-block;
+    font-size: 18px;
+    margin: 8px auto 12px auto;    
+}
+  
+#radios {
+    border: none;
+    margin: 8px 12px;
+    padding: 6px;
+
+}
+  
+input[type="checkbox"] {
+    display: inline-block;
+    margin: 14px 4px;
+    font-size: 18px; 
+   
+}
+  
+#checks {
+    display : flex;
+    flex-direction: column; 
+    border: none;
+    margin: 8px;
+}
+  
+textarea {
+    display: block;
+    width: 100%;
+    height: 130px;
+    padding: 6px;
+    margin: 12px auto 24px auto;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+  
+button {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+    margin: 8px auto;
+    border: 1px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #32b85f;  
+}
+  
+button:hover {
+    background-color: #b1c7d2;
+}

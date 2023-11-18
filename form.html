@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+        <link rel="stylesheet" href="style.css">
+        <title>Survey</title>
+    </head>
+    
+    
+    <body>
+        
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform.</p>
+
+        <form id="survey-form">
+            <label id="name-label">Name <input id="name" type="text" required placeholder="Enter your name..."/></label>
+            <label id="email-label">Email <input id="email" type="email" required placeholder="Enter your email..."/></label>
+            <label id="number-label">Age (optional) <input id="number" type="number" min="18" max="120" placeholder="Enter your age..."/></label>
+
+            <label>Which your current role ? 
+                <select id="dropdown">
+                    <option>Student</option>
+                    <option>Full time Job</option>
+                    <option>Full time Leaner</option>
+                    <option>Prefer not to say</option>   
+                    <option>Other</option>
+                </select>
+            </label>
+
+
+            <label>Would you recommend freeCodeCamp to a friend?</label>
+            <fieldset id="radios">
+                <!-- <label><input  type="radio" name="grouped" value="option1"/>Definitely</label>      -->
+                <!-- <label><input type="radio" name="grouped" value="option2"/>Maybe</label>
+                <label><input type="radio" name="grouped" value="option3"/>Not sure</label> -->
+                
+                <input  type="radio" name="grouped" value="option1" id="opt1"/>    
+                <label for="opt1">Definitely</label><br/>   
+                <input  type="radio" name="grouped" value="option1" id="opt1"/>    
+                <label for="opt1">Maybe</label><br/>  
+                <input  type="radio" name="grouped" value="option1" id="opt1"/>    
+                <label for="opt1">Not sure</label><br/>    
+
+                
+
+            </fieldset>      
+
+
+      
+            <label>What is your favorite feature of freeCodeCamp?
+                <select id="dropdowns">
+                    <option>Select an option</option>
+                    <option>Challenges</option>
+                    <option>Projects</option>
+                    <option>Community</option>
+                    <option>Open Source</option>
+                </select>
+            </label>
+
+            <label>What would you like to see improved? (Check all that apply)</label>
+            <fieldset id="checks">
+                <label><input id="check1" value="Choix 1" type="checkbox" />Front-end Projects</label>
+                <label><input id="check2" value="Choix 2" type="checkbox" />Back-end Projects</label>
+                <label><input id="check3" value="Choix 3" type="checkbox" />Data Visualization</label>
+                <label><input id="check4" value="Choix 4" type="checkbox" />Challenges</label>
+                <label><input id="check5" value="Choix 5" type="checkbox" />Open Source Community</label>
+                <label><input id="check6" value="Choix 6" type="checkbox" />Gitter help rooms</label>
+                <label><input id="check7" value="Choix 7" type="checkbox" />Videos</label>
+                <label><input id="check8" value="Choix 8" type="checkbox" />City Meetups</label>
+                 <label><input id="check9" value="Choix 9" type="checkbox" />Wiki</label>
+                <label><input id="check10" value="Choix 10" type="checkbox" />Forum</label>
+                <label><input id="check11" value="Choix 11" type="checkbox" />Additional Courses</label>
+
+    
+            </fieldset>
+
+            <label>Any comments or suggestions?</label><textarea placeholder="Enter comment here..."></textarea>
+
+            <button id="submit" type="submit">Submit</button>
+
+         </form>
+
+    </body>
+</html>
+
+
+
+
+
+
+
